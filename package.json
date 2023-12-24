@@ -1,0 +1,22 @@
+{
+  "name": "graphql-movie-review-api",
+  "version": "0.0.1",
+  "description": "Simple GraphQL API for movie reviews",
+  "main": "index.js",
+  "author": "K. Lae Kettavong",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn run build && node ./dist/index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "nodemon": "^3.0.2",
+    "typescript": "^5.3.3"
+  }
+}
